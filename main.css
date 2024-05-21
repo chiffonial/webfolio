@@ -1,0 +1,132 @@
+@font-face{
+    font-family: 'big';
+    src:url('DulkanycaBold-2R3e.ttf')
+}
+
+@font-face{
+	font-family: 'helvetica';
+	src:url('Helvetica.ttf')
+}
+
+body{
+    margin: 0; 
+    background-color:#251d3a;
+}
+
+.whitetext{
+    color:white; 
+    font-family: 'helvetica', Arial, sans-serif;
+}
+
+.topbar{
+    overflow:hidden;
+    background-color:#ffcad4;
+	
+}
+
+.toptext{
+    font-family: 'big', Arial, sans-serif;
+    letter-spacing: 1px;
+    padding: 1px 20px;
+	font-size: 20px
+}
+
+table{
+    margin-left:160px;
+    margin-top:50px;
+    margin-bottom:50px;
+    width:80%;
+}
+
+th{
+    height: 70px;
+	border:1px
+}
+
+td{
+    height: 30px;
+    text-align: center;
+	border:1px
+}
+
+#bigname{
+    font-family: 'big', Arial, sans-serif;
+    font-size: 40px;
+}
+
+#name{
+    margin-left:200px;
+    margin-top:100px;
+    }
+
+#face{
+    text-align: right
+}
+
+#nametext{
+    text-align:left;
+    padding: 0px 30px
+}
+
+#github_button{
+    text-align:right;
+	border:none
+}
+
+#instagram_button{
+    text-align:left;
+}
+
+#toptext2{
+    text-align:left;
+	width:800px;
+}
+
+.contacts{
+	background:transparent;
+	cursor: pointer;
+	border-radius:10px;
+}
+
+.links{
+	font-family: 'helvetica', Arial, sans-serif;
+	text-align:center;
+	border: none;
+	background-color: #FFCAD4;
+	display: inline;
+	color: black;
+	height:50px;
+	width:100px;
+	cursor: pointer;
+	border-radius: 10px;
+	}
+	
+.links:hover{
+	background-color: #FF9AAC;
+}
+
+#topbar2{
+	width:95%;
+    margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px
+}
+
+.aboutme{
+	margin-left:20px;
+}
+
+.projects{
+	background-color:#ffcad4;
+	font-family: 'helvetica'; Arial; sans-serif;
+	width: 500px;
+	height: 200px;
+	font-size: 30px;
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+}
+
+.projects:hover{
+	background-color: #ff9aac
+}
